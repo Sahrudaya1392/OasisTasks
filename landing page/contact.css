@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    height:80vh;
+    padding: 50px;
+}
+.contact{
+    font-size: 40px;
+    padding: 20px 20px;
+}
+.box {
+    width:400px;
+    height:500px;
+    padding: 30px 30px;
+   background: rgb(82, 80, 80);
+   color: white;
+   padding-block: 50px;
+}
+.t{
+    font-size:23px;
+}
+.txt{
+    height:27px;
+    width:200px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mail{
+    height: 27px;
+   width:200px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.pswd{
+    height:27px;
+    width:200px;
+     border:none;
+     margin-top: 10px;
+    margin-bottom: 15px;
+}
+.forget{
+    display: flex;
+    justify-content: space-around;
+   padding-block: 20px;
+padding: 10px 10px;
+margin-bottom: 15px;
+}
+.forget a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.forget a:hover{
+    color:rgb(241, 195, 135);
+}
+button{
+    width:60px;
+    height:25px;
+    font-size: 15px;
+}
+button:hover{
+color: rgb(216, 122, 63);
+}
+p{
+    font-size: 18px;
+    color: white;
+}
+p:hover{
+    color: rgb(241, 195, 135);
+}
+.login {
+    color: black;
+    box-sizing:content-box;
+    background:white;
+   width:260px;
+   height:20px;
+   padding:5px;
+   font-size: 20px;
+   border-radius:19px;
+}
+.login a{
+    text-decoration: none;
+    position:relative;
+  transition: 0.5s;
+}
+.media{
+    display: flex;
+    justify-content:center;
+   font-size: 30px;
+}
+.media a{
+    text-decoration: none;
+}
+.media i{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    height: 100px;
+    width:70px;
+}
+.media i:hover{
+    color:orange;
+}
